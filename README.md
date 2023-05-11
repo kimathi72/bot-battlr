@@ -1,25 +1,28 @@
-# Getting Started with Create React App
+#  React App : Bot Battlr
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Code Challenge: Bot Battlr
+Welcome to Bot Battlr, the one and only spot in the known universe where you can custom build your own Bot Army! 
 
-## Available Scripts
+Our dispalys a list of available bots, and alows a user to add any bot to his army of bots. 
+
+## Json Server Script
 
 In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `npm run server`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Launches the JSON server in the interactive watch mode.\
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started : Project Setup
 
-### `npm run build`
+1. Clone this repository to your local environment
+2. On Your terminal, navigate to the cloned repository, type "npm install" to install all dependencies.
+3. Type "npm run server" to launch json server. port will open on "http://localhost:8001". resources can be accessed at "http://localhost:8001/bots/"
+4. Finally run npm start to launch the project on your browser
+
+##
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
