@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    width: 370px;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: auto;
+    
+}
+.card-header{
+    background-color: lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+.card-body{
+    background-color: #fff;
+    color: #000;    
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+}
+.card-footer{
+    border-top: 1px solid #ccc;
+    background-color: lavender;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 5px;
+    color:darkslategrey
+}
+.armyBots{
+    width: 90%;
+    height: 50%;
+    background-color: greenyellow;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 10px;
+}
+.bots{
+    background-color: darkgreen;
+}
+.pagination{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style-type: none;
+
+}
