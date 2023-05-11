@@ -5,6 +5,12 @@ Welcome to Bot Battlr, the one and only spot in the known universe where you can
 
 Our dispalys a list of available bots, and alows a user to add any bot to his army of bots. 
 
+## Technologies used
+1. HTML, CSS ,JS
+2. REACT HOOKS
+3. JSON SERVER
+
+
 ## Json Server Script
 
 In the project directory, you can run:
